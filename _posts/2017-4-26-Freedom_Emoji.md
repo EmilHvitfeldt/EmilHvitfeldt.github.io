@@ -1,3 +1,9 @@
+---
+layout: post
+title: "2017 World Press Freedom Index with emojis"
+comments: true
+---
+
 With [Reporters Without Borders](https://rsf.org/en) coming out with its
 [2017 World Press Freedom Index](https://rsf.org/en/ranking/2017) in the
 same week as Hadley Wickham comming out with the
