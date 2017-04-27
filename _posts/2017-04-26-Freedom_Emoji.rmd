@@ -158,6 +158,4 @@ left_join(freedom_index, gdp_pcap, by = c("ISO" = "Country Code")) %>%
 
 ggsave(filename = "test2.svg", width = 7, height = 6)
 ```
-
-![](test2.svg)
-
+![_config.yml]({{ site.baseurl }}/images/freedom_emoji.svg)
