@@ -250,7 +250,7 @@ Now with all the preperation done we do a naive first plot.
 
     ## Warning: Removed 14 rows containing missing values (geom_text).
 
-![](2017-4-26-Freedom_Emoji_files/figure-markdown_strict/unnamed-chunk-9-1.png)
+![_config.yml]({{ site.baseurl }}/images/unnamed-chunk-9-1.png)
 
 But wait, we have a couple of problems:
 
@@ -265,4 +265,4 @@ simple log transformation of the gdp\_pcap.
 
 Our final plot is thus the following:
 
-![](test2.svg)
+![_config.yml]({{ site.baseurl }}/images/freedom_emoji.svg)
