@@ -265,4 +265,19 @@ simple log transformation of the gdp\_pcap.
 
 Our final plot is thus the following:
 
+    left_join(freedom_index, gdp_pcap, by = c("ISO" = "Country Code")) %>% 
+      mutate(EN_country = tolower(EN_country),
+             `Overall Score 2016` = `Overall Score 2016` / 100) %>% 
+      left_join(newemoji, by = c("EN_country" = "name")) %>% 
+      ggplot(aes(x = `2015`, y = `Overall Score 2016`)) +
+      stat_smooth(method = "lm", color = "grey", se = FALSE) +
+      geom_text(aes(label = emoji)) +
+      scale_x_log10() +
+      annotation_logticks(sides = "b")  +
+      theme_ipsum() +
+      labs(x = "GDP per capita (current US$)", y = "2017 World Press Freedom Index",
+           title = "Countries with high GDP per capita\ntend to have low Freedom Index",
+           subtitle = "Visualized with emojis")
+
+
 ![_config.yml]({{ site.baseurl }}/images/freedom_emoji.svg)
