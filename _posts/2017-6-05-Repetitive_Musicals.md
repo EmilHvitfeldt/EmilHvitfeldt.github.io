@@ -1,5 +1,8 @@
-Repetition in musicals with tidytext
-------------------------------------
+---
+layout: post
+title: "Repetition in musicals with tidytext"
+comments: true
+---
 
 Lately I have been wondering how to quantify how repetitive a text is,
 specifically how repetitive are the lyrics to songs. I'm by no means the
