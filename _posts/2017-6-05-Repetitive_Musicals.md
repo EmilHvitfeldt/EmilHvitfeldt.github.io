@@ -191,7 +191,7 @@ ggplot to give us a nice visualization
       geom_line() +
       coord_cartesian(ylim = 0:1)
 
-![](2017-6-05-Repetitive_Musicals_files/figure-markdown_strict/unnamed-chunk-8-1.png)
+![_config.yml]({{ site.baseurl }}/images/repetitive musicals 1.png)
 
 from this plot alone we can see that roughly 3/4 of the words used in
 the song are used more then twice, while on the other end of the scale
@@ -246,7 +246,7 @@ have some range in its songs.
       labs(title = "Billy Elliot") +
       coord_cartesian(ylim = 0:1)
 
-![](2017-6-05-Repetitive_Musicals_files/figure-markdown_strict/unnamed-chunk-11-1.png)
+![_config.yml]({{ site.baseurl }}/images/repetitive musicals 2.png)
 
 to further compare we bind all the data.frames together for ease of
 handling
@@ -261,8 +261,8 @@ handling
       ggplot(aes(n, repetition)) +
       geom_line(aes(group = name), alpha = 0.5) +
       facet_wrap(~ album)
-
-![](2017-6-05-Repetitive_Musicals_files/figure-markdown_strict/unnamed-chunk-12-1.png)
+      
+![_config.yml]({{ site.baseurl }}/images/repetitive musicals 3.png)
 
 Wow, here we clearly see some differences in lyrical styles for the
 different musical, from the evenness of the soundtrack to "In the
@@ -288,4 +288,4 @@ each album in the same plot, fading out individual songs.
 
     ## Warning: Removed 20 rows containing non-finite values (stat_smooth).
 
-![](2017-6-05-Repetitive_Musicals_files/figure-markdown_strict/unnamed-chunk-13-1.png)
+![_config.yml]({{ site.baseurl }}/images/repetitive musicals 4.png)
