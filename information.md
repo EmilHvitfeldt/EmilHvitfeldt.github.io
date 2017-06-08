@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Information
-permalink: /Information/
+permalink: /information/
 ---
 
 ### Blogs
