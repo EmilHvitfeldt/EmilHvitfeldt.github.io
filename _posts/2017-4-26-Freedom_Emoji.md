@@ -4,6 +4,8 @@ title: "2017 World Press Freedom Index with emojis"
 comments: true
 ---
 
+## (new website is found [here](https://www.hvitfeldt.me/2017/04/26/2017-world-press-freedom-index-with-emojis/)
+
 With [Reporters Without Borders](https://rsf.org/en) coming out with its
 [2017 World Press Freedom Index](https://rsf.org/en/ranking/2017) in the
 same week as Hadley Wickham comming out with the
