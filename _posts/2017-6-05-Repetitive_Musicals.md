@@ -4,6 +4,8 @@ title: "Repetition in musicals with tidytext"
 comments: true
 ---
 
+## (new website is found [here](https://www.hvitfeldt.me/2017/06/05/repetition-in-musicals-with-tidytext/))
+
 Lately I have been wondering how to quantify how repetitive a text is,
 specifically how repetitive are the lyrics to songs. I'm by no means the
 first one, Colin Morris did a great piece on language compression with
